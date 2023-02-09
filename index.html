@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./koolaid.css">
+    <title>RatARapper.com</title>
+    <style>
+    </style>
+</head>
+
+<body>
+    <nav id="beat">
+        <h1>
+            RatARapper.com
+        </h1>
+    </nav>
+    <div id="container">
+        <div id="title"> </div>
+        <div id="search">
+            <input id="bar" type="text" placeholder="Search...">
+            <button id="button" type="Submit"> Submit</button>
+        </div>
+        <div id="loco">
+            <p id="texy">Search any rapper you know and we will give you all the imformation you need on them </p>
+        </div>
+    </div>
+
+    <script>
+        const button = document.querySelector('button'); //submit button
+        button.addEventListener("click", () => {
+            let query = document.querySelector('input').value; // input value ex: kanye
+            sessionStorage.setItem("rappers", JSON.stringify(query)) // saves rappers to storage
+            location.assign("./rapper.html") // change page to rappers html page
+        })
+    </script>
+</body>
+
+</html>

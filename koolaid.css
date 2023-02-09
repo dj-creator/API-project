@@ -1,0 +1,116 @@
+#beat {
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    color: rgb(111, 36, 210);
+    padding: 10px;
+}
+
+body {
+    overflow: hidden ;
+    background-color: gray;
+}
+
+h1,
+body {
+    margin: 0;
+    padding: 0%;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 70px;
+}
+#bar{
+    width: 500px;
+    height: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid rgb(71, 14, 204);
+}
+#bar:focus{
+    outline: 2px solid rgb(71, 14, 204);
+}
+#button{
+    margin: 10px;
+    width: 200px;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid rgb(71, 14, 204) ;
+    transition: 1s;
+    color:  rgb(71, 14, 204) ;
+}
+#button:hover{
+    background-color: lightskyblue ;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(71, 14, 204);
+    font-size: 100px;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+#loco{
+    display: flex;
+    width: 700px;
+    height:200px ;
+}
+#texy{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(71, 14, 204);
+}
+#title{
+    background-image: url(./snitch.png);
+    width: 200px;
+    height: 200px;
+    background-size: 100% 100%;
+}
+#press{
+    width: 100px;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border:  2px solid black ;
+    color: white ;
+    background-color: red;
+}
+#box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    contain: content;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 50px;
+}
+#text{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+}
+
+#born{
+    color:lightgreen ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#results{
+    background-color: white;
+    text-align: center;
+    
+}
